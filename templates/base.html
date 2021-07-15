@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carnage's Blog</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><a href="{% url 'home' %}">Carnage's Blog</a></h1>
+    </header>
+
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+
+</html>
