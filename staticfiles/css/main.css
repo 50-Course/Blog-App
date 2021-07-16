@@ -1,0 +1,76 @@
+header h1 a {
+    color: red;
+} 
+
+a:hover {
+    color: rgb(132, 0, 255)(212, 149, 149);
+}
+
+.post-entry {
+    display: block;
+    background-color: rgb(59,130,246,0.5);
+    padding: 40px 60px;
+    position: relative;
+    box-shadow: 0px 15px 30px rgba(219, 213, 213, 0.521);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.post-entry {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+
+* {
+    --tw-shadow: 0 0 transparent;
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:rgb(253, 253, 253);
+}
+
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visted {
+    color: red;
+    text-decoration: none;
+}
+
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+    color: red;
+}
